@@ -410,3 +410,98 @@ body {
   border: 1px solid #194185;
   background-color: #EFF8FF;
 }
+/* ---- CONSISTENT NAVBAR ---- */
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo img {
+  height: 40px;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #008565;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .features {
+    padding: 30px 20px;
+  }
+
+  .feature-card {
+    flex-direction: column;
+  }
+
+  .feature-image img {
+    max-width: 100%;
+  }
+
+  .steps-section {
+    padding: 30px 20px;
+  }
+
+  .steps-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .step-divider {
+    display: none;
+  }
+
+  .footer {
+    padding: 40px 20px 20px;
+  }
+
+  .footer-cta {
+    flex-direction: column;
+  }
+
+  .footer-main {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
