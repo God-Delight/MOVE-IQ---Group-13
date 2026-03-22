@@ -80,7 +80,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #1a1a1a;
 }
 
@@ -322,6 +322,11 @@ body {
   font-weight: 700;
 }
 
+.footer-logo img {
+  height: 36px;
+  width: auto;
+}
+
 .footer-tagline {
   font-size: 13px;
   color: #aaa;
@@ -410,89 +415,122 @@ body {
   border: 1px solid #194185;
   background-color: #EFF8FF;
 }
-/* ---- CONSISTENT NAVBAR ---- */
-.nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav-logo img {
-  height: 40px;
-  width: auto;
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-  list-style: none;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.btn-primary {
-  background-color: #008565;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-
+/* ---- RESPONSIVE / MOBILE ---- */
 @media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    gap: 16px;
-    padding: 10px 20px;
+
+  /* Navbar */
+  .navbar {
+    padding: 12px 20px !important;
   }
 
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
+  /* Hero carousel */
+  .carousel-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
+  .carousel-item .row {
+    flex-direction: column-reverse !important;
+    min-height: auto;
+  }
+
+  .carousel-item .col-md-6 {
+    width: 100%;
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  .carousel-item .col-md-6 img {
+    max-height: 300px;
+    margin-top: 20px;
+  }
+
+  .carousel-item h1 {
+    font-size: 28px !important;
+  }
+
+  /* Features */
   .features {
     padding: 30px 20px;
   }
 
   .feature-card {
-    flex-direction: column;
+    flex-direction: column !important;
+    padding: 20px;
+  }
+
+  /* Card 2 image should be below text */
+  .feature-card:nth-child(2) {
+    flex-direction: column-reverse !important;
+  }
+
+  .feature-image {
+    width: 100%;
   }
 
   .feature-image img {
     max-width: 100%;
   }
 
+  .image-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Steps */
   .steps-section {
     padding: 30px 20px;
+  }
+
+  .steps-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
   }
 
   .steps-card {
     flex-direction: column;
     align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .step {
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .step-icon {
+    flex-shrink: 0;
+    margin-bottom: 4px;
+  }
+
+  .step-label {
+    font-size: 11px;
+  }
+
+  .step-title {
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .step-divider {
     display: none;
   }
 
+  /* Footer */
   .footer {
     padding: 40px 20px 20px;
   }
 
   .footer-cta {
     flex-direction: column;
+  }
+
+  .mockup-img {
+    height: 200px;
   }
 
   .footer-main {
@@ -504,4 +542,18 @@ body {
     flex-direction: column;
     gap: 24px;
   }
+}
+/* White hamburger icon */
+.navbar-toggler {
+  border-color: white !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Logo left aligned */
+.navbar-brand {
+  margin: 0 !important;
+  order: -1;
 }
