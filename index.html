@@ -20,9 +20,19 @@
   <li><a href="How it works.html">How it works</a></li>
   <li><a href="about.html">About us</a></li>
   <li><a href="about.html#contact">Contact</a></li>
-  <li><a href="#">EN <i class="fas fa-chevron-down"></i></a></li>
 </ul>
       <a href="index.html" class="btn-primary">Download the App</a>
+      <button class="hamburger" onclick="document.getElementById('mobileMenu').classList.toggle('open')">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="How it works.html">How it works</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="about.html#contact">Contact</a></li>
+        <li><a href="index.html" class="btn-primary">Download the App</a></li>
+      </ul>
     </div>
   </nav>
 
@@ -125,7 +135,7 @@
     </div>
   </section>
 
-  <!-- TESTIMONIALS SECTION -->
+    <!-- TESTIMONIALS SECTION -->
   <section class="testimonials">
     <div class="testimonials-container">
       <div class="testimonials-header">
@@ -140,176 +150,161 @@
         </div>
       </div>
 
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Tolulope" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Tolulope</p>
-              <p class="testimonial-role">App user</p>
+      <!-- ROW 1 -->
+      <div class="testimonials-track-wrapper">
+        <div class="testimonials-track" id="track1">
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Tolulopeimage.png" alt="Tolulope" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Tolulope</p><p class="testimonial-role">App user</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">This app literally changed how I commute. The real-time alerts have saved me countless hours stuck in traffic.</p>
           </div>
-          <p class="testimonial-text">This app literally changed how I commute. The real-time alerts have saved me countless hours stuck in traffic.</p>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Eloeda Nwosu" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Eloeda Nwosu</p>
-              <p class="testimonial-role">Product Manager</p>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Emeka.png" alt="Emeka Nwosu" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Emeka Nwosu</p><p class="testimonial-role">Product Manager</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">I used to dread the Lagos-Ibadan expressway. Now I plan my trips using MoveIQ and it makes a huge difference.</p>
           </div>
-          <p class="testimonial-text">I used to dread the Lagos-Ibadan expressway. Now I plan my trips using MoveIQ and it makes a huge difference.</p>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Tosin Adeyemi" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Tosin Adeyemi</p>
-              <p class="testimonial-role">Product Manager</p>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Tosinimg.png" alt="Tosin Adeyemi" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Tosin Adeyemi</p><p class="testimonial-role">Product Manager</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">The community reports feature is brilliant. Real people sharing real updates — it's exactly what commuters need.</p>
           </div>
-          <p class="testimonial-text">The community reports feature is brilliant. Real people sharing real updates — it's exactly what commuters need.</p>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Fatima Abubakar" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Fatima Abubakar</p>
-              <p class="testimonial-role">Car owner</p>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Fatimaimage.png" alt="Fatima Abubakar" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Fatima Abubakar</p><p class="testimonial-role">Car owner</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">MoveIQ has become an essential part of my daily routine. I won't leave home without checking it first.</p>
           </div>
-          <p class="testimonial-text">MoveIQ has become an essential part of my daily routine. I won't leave home without checking it first.</p>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Chidi Okoro" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Chidi Okoro</p>
-              <p class="testimonial-role">Daily commuter</p>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="avatar1.png" alt="Chidi Okoro" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Chidi Okoro</p><p class="testimonial-role">Daily commuter</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">Simple, fast, and accurate. Best commute app I've used so far and I've tried many others.</p>
           </div>
-          <p class="testimonial-text">Simple, fast, and accurate. Best commute app I've used so far and I've tried many others.</p>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Jide Belo" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Jide Belo</p>
-              <p class="testimonial-role">App user</p>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Jide.png" alt="Jide Bello" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Jide Bello</p><p class="testimonial-role">App user</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">Finally an app built for Nigerian roads. The incident reporting is quick and the alerts are spot on.</p>
           </div>
-          <p class="testimonial-text">Finally an app built for Nigerian roads. The incident reporting is quick and the alerts are spot on.</p>
+          <!-- Duplicates for infinite scroll -->
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Tolulopeimage.png" alt="Tolulope" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Tolulope</p><p class="testimonial-role">App user</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            </div>
+            <p class="testimonial-text">This app literally changed how I commute. The real-time alerts have saved me countless hours stuck in traffic.</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Emeka.png" alt="Emeka Nwosu" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Emeka Nwosu</p><p class="testimonial-role">Product Manager</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            </div>
+            <p class="testimonial-text">I used to dread the Lagos-Ibadan expressway. Now I plan my trips using MoveIQ and it makes a huge difference.</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Tosinimg.png" alt="Tosin Adeyemi" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Tosin Adeyemi</p><p class="testimonial-role">Product Manager</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            </div>
+            <p class="testimonial-text">The community reports feature is brilliant. Real people sharing real updates — it's exactly what commuters need.</p>
+          </div>
         </div>
       </div>
 
-      <!-- Row 2 -->
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Fatima Abubakar" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Fatima Abubakar</p>
-              <p class="testimonial-role">Car owner</p>
+      <!-- ROW 2 (desktop only) -->
+      <div class="testimonials-track-wrapper desktop-only">
+        <div class="testimonials-track" id="track2">
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Fatimaimage.png" alt="Fatima Abubakar" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Fatima Abubakar</p><p class="testimonial-role">Car owner</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">MoveIQ has become an essential part of my daily routine. I won't leave home without checking it first.</p>
           </div>
-          <p class="testimonial-text">I recommended this app to my entire office. Everyone now uses it for their morning commute planning.</p>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Chidi Okoro" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Chidi Okoro</p>
-              <p class="testimonial-role">Daily commuter</p>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Jide.png" alt="Jide Bello" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Jide Bello</p><p class="testimonial-role">App user</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">Finally an app built for Nigerian roads. The incident reporting is quick and the alerts are spot on.</p>
           </div>
-          <p class="testimonial-text">Saved me from a 3-hour traffic jam last week. The early warning system is incredibly accurate.</p>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Jide Belo" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Jide Belo</p>
-              <p class="testimonial-role">App user</p>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Tolulopeimage.png" alt="Tolulope" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Tolulope</p><p class="testimonial-role">App user</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">Five stars, no question. This is exactly the kind of tech solution Nigerian commuters have been waiting for.</p>
           </div>
-          <p class="testimonial-text">The UI is clean and easy to navigate. Makes reporting an incident literally a two-tap experience.</p>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Tosin Adeyemi" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Tosin Adeyemi</p>
-              <p class="testimonial-role">Product Manager</p>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Emeka.png" alt="Emeka Nwosu" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Emeka Nwosu</p><p class="testimonial-role">Product Manager</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">I love that it's community-driven. People helping people — that's the spirit of MoveIQ.</p>
           </div>
-          <p class="testimonial-text">As someone who drives daily, this app is now non-negotiable for me. It just works every single time.</p>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Enaeka Nwosu" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Enaeka Nwosu</p>
-              <p class="testimonial-role">Dept. Supervisor</p>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="avatar1.png" alt="Chidi Okoro" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Chidi Okoro</p><p class="testimonial-role">Daily commuter</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">Saved me from a 3-hour traffic jam last week. The early warning system is incredibly accurate.</p>
           </div>
-          <p class="testimonial-text">I love that it's community-driven. People helping people — that's the spirit of MoveIQ.</p>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial-top">
-            <img src="avatar1.png" alt="Tolulope" class="testimonial-avatar"/>
-            <div>
-              <p class="testimonial-name">Tolulope</p>
-              <p class="testimonial-role">App user</p>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Tosinimg.png" alt="Tosin Adeyemi" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Tosin Adeyemi</p><p class="testimonial-role">Product Manager</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
             </div>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
+            <p class="testimonial-text">As someone who drives daily, this app is now non-negotiable for me. It just works every single time.</p>
           </div>
-          <p class="testimonial-text">Five stars, no question. This is the kind of tech solution Nigerian commuters have been waiting for.</p>
+          <!-- Duplicates for infinite scroll -->
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Fatimaimage.png" alt="Fatima Abubakar" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Fatima Abubakar</p><p class="testimonial-role">Car owner</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            </div>
+            <p class="testimonial-text">MoveIQ has become an essential part of my daily routine. I won't leave home without checking it first.</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Jide.png" alt="Jide Bello" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Jide Bello</p><p class="testimonial-role">App user</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            </div>
+            <p class="testimonial-text">Finally an app built for Nigerian roads. The incident reporting is quick and the alerts are spot on.</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <img src="Tolulopeimage.png" alt="Tolulope" class="testimonial-avatar"/>
+              <div><p class="testimonial-name">Tolulope</p><p class="testimonial-role">App user</p></div>
+              <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            </div>
+            <p class="testimonial-text">Five stars, no question. This is exactly the kind of tech solution Nigerian commuters have been waiting for.</p>
+          </div>
         </div>
       </div>
 
@@ -321,12 +316,15 @@
   <section class="cta-banner">
     <div class="cta-content">
       <h2>Empowering you to<br/>commute smarter</h2>
+      <div class="cta-image mobile-only">
+        <img src="cta-driver.png" alt="Driver using MoveIQ" />
+      </div>
       <div class="store-buttons">
         <a href="#"><img src="appstore.png" alt="App Store" /></a>
         <a href="#"><img src="googleplay.png" alt="Google Play" /></a>
       </div>
     </div>
-    <div class="cta-image">
+    <div class="cta-image desktop-cta-image">
       <img src="cta-driver.png" alt="Driver using MoveIQ" />
     </div>
   </section>
@@ -446,12 +444,11 @@
       <div class="footer-links">
         <div class="footer-col">
           <h4>Solutions</h4>
-          <a href="#">Realtime Traffic Alerts</a>
-          <a href="#">Community Traffic Reports</a>
-          <a href="#">Live Pulse Feed</a>
-          <a href="#">How it works</a>
-          <a href="#">About Us</a>
-          <a href="#">Contact</a>
+          <a href="How it works.html">Realtime Traffic Alerts</a>
+          <a href="How it works.html">Community Traffic Reports</a>
+          <a href="How it works.html">Live Pulse Feed</a>
+          <a href="How it works.html">How it works</a>
+          <a href="about.html">About Us</a>
         </div>
         <div class="footer-col">
           <h4>Policies</h4>
@@ -460,8 +457,8 @@
         </div>
         <div class="footer-col">
           <h4>Resources</h4>
-          <a href="#">Contact Us</a>
-          <a href="#">FAQs</a>
+          <a href="about.html#contact">Contact Us</a>
+          <a href="about.html#faq">FAQs</a>
           <a href="#">MoveIQ community</a>
         </div>
       </div>
@@ -473,6 +470,38 @@
 
   </footer>
 
+  <script>
+    // Testimonials auto scroll
+    const tracks = document.querySelectorAll('.testimonials-track');
+    const speeds = [0.5, 0.4];
+    let positions = [0, 0];
+    let paused = false;
+    let animFrame;
+
+    function animate() {
+      tracks.forEach((track, i) => {
+        if (!paused) {
+          positions[i] -= speeds[i];
+          const half = track.scrollWidth / 2;
+          if (Math.abs(positions[i]) >= half) {
+            positions[i] = 0;
+          }
+          track.style.transform = `translateX(${positions[i]}px)`;
+        }
+      });
+      animFrame = requestAnimationFrame(animate);
+    }
+
+    animate();
+
+    // Pause on hover (desktop)
+    document.querySelector('.testimonials').addEventListener('mouseenter', () => paused = true);
+    document.querySelector('.testimonials').addEventListener('mouseleave', () => paused = false);
+
+    // Pause on touch (mobile)
+    document.querySelector('.testimonials').addEventListener('touchstart', () => paused = true);
+    document.querySelector('.testimonials').addEventListener('touchend', () => paused = false);
+  </script>
   <script>
     // FAQ Accordion
     const faqItems = document.querySelectorAll('.faq-item');
